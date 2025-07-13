@@ -30,5 +30,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/mfuezesi/nextcloud:21
+            ghcr.io/mfuezesi/nextcloud:22
             ghcr.io/mfuezesi/nextcloud:latest
