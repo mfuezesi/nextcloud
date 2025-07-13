@@ -29,4 +29,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.actor }}/nextcloud:20
+          tags: |
+            ghcr.io/mfuezesi/nextcloud:20
+            ghcr.io/mfuezesi/nextcloud:latest
